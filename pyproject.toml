@@ -1,0 +1,21 @@
+[project]
+name = "lc-star"
+version = "0.1.0"
+description = "Saint Lucia Infrastructure Risk Assessment"
+readme = "README.md"
+authors = [
+    { name = "Tom Russell", email = "tom.russell@ouce.ox.ac.uk" }
+]
+requires-python = ">=3.14"
+dependencies = [
+  "click~=8.5",
+  "fiona~=1.10",
+  "gdal==3.12.2",
+  "numpy~=2.5",
+  "requests~=2.34",
+  "shapely~=2.1",
+]
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
