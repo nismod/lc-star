@@ -1,0 +1,31 @@
+name: test
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Python environment
+        uses: mamba-org/setup-micromamba@v1
+        with:
+          environment-file: environment.yaml
+          environment-name: lc-star
+          cache-environment: true
+
+      - name: Lint
+        shell: bash -l {0}
+        run: ruff check --output-format=github .
+
+      - name: Check notebooks have no output
+        shell: bash -l {0}
+        run: find -name '*.ipynb' -exec nbstripout --verify {} \;
+
+      - name: Test with pytest
+        # Use a login shell so setup-micromamba activates the test environment.
+        shell: bash -l {0}
+        run: |
+          pytest -n auto src/
