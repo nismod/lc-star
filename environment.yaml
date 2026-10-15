@@ -1,0 +1,30 @@
+# To install this environment:
+# micromamba create -f environment.yaml -y
+name: lc-star
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.14
+  - pip:
+      - -e .[dev]
+      - nismod-snail
+      - osmium
+  - boto3
+  - botocore
+  - gdal
+  - geopandas
+  - jupyter
+  - matplotlib
+  - nbstripout
+  - networkx
+  - notebook
+  - numpy>=1.26,<2
+  - shapely
+  - pandas>=2,<3
+  - pdoc
+  - pyarrow
+  - pytest
+  - bioconda::snakemake
+  - xarray
+  - zarr
