@@ -1,4 +1,4 @@
-# Contributing to mu-star
+# Contributing to lc-star
 
 Thank you for working on St Lucia's LC-STAR. This guide is written primarily for
 researchers collaborating on the project — whether you focus on a single sector
@@ -32,7 +32,7 @@ contributions later.
 
    ```shell
    git clone git@github.com:nismod/lc-star.git
-   cd mu-star
+   cd lc-star
    ```
 
 2. **Create the environment** (once per machine; we recommend using
@@ -145,7 +145,7 @@ via pull request; nobody commits directly to `development`.
 6. **Respond to review, then merge.** Once approved and CI is green, merge
    (squash-merge keeps history tidy) and delete the branch.
 
-**Forks vs branches:** if you have write access to `nismod/mu-star`, work on a
+**Forks vs branches:** if you have write access to `nismod/lc-star`, work on a
 branch in the repository — it's simpler and lets others push to your branch to
 help. Use a fork only if you don't have write access.
 
