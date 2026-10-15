@@ -5,6 +5,11 @@ message: >-
   metadata from this file.
 type: software
 authors:
+  - given-names: Tom
+    family-names: Russell
+    email: tom.russell@ouce.ox.ac.uk
+    affiliation: University of Oxford
+    orcid: "https://orcid.org/0000-0002-0081-400X"
   - given-names: Fred
     family-names: Thomas
     email: fred.thomas@eci.ox.ac.uk
