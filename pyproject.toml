@@ -10,7 +10,6 @@ requires-python = ">=3.14"
 dependencies = [
   "click~=8.5",
   "fiona~=1.10",
-  "gdal==3.12.2",
   "numpy~=2.5",
   "requests~=2.34",
   "shapely~=2.1",
