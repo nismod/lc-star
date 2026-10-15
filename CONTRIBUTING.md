@@ -49,16 +49,7 @@ contributions later.
    python -m pytest src/
    ```
 
-4. **Dry-run a small workflow target** to see how Snakemake looks for output
-  files and selects workflow rules to run (dry-run means no rules will actually
-  run):
-
-   ```shell
-   snakemake --dry-run --cores 1 \
-     data/processed/networks/transport/airport-areas.geoparquet
-   ```
-
-5. **Open a draft pull request.**
+4. **Open a draft pull request.**
   - [ ] Create a branch
   - [ ] Add yourself to the file `CITATION.cff`
   - [ ] (Optionally) Find a typo in the code or docs and fix it.
