@@ -1,0 +1,42 @@
+# St Lucia Strategic Tool for the Analysis of Risk: `lc-star` Technical Documentation
+
+This document describes the methodology, data and implementation for the
+development of the St Lucia Strategic Tool for the Analysis of Risk (`lc-star`).
+
+The focus of this document is to:
+
+- Provide a detailed overview of the methodology and the component models;
+- Record the modelling assumptions made in the analysis;
+- Describe the datasets collected and finalised in implementing the methodology;
+
+This is a technical document which is meant to explain the theory and concepts
+behind the spatial risk analysis and component models being developed in
+St Lucia.
+
+The main target audience of this report includes climate risk and infrastructure
+modellers and technical experts who would be interested in understanding the
+detailed working of `lc-star`, including researchers and model developers who
+intend to work on and develop the codebase.
+
+## Document control
+
+<table style="margin: 0;">
+<thead>
+<tr>
+  <th>Issue</th>
+  <th>Status</th>
+  <th>Authors</th>
+  <th>Reviewed by</th>
+  <th>Issue Date</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+  <td>-</td>
+  <td>Working document</td>
+  <td>Tom Russell, &hellip;</td>
+  <td>-</td>
+  <td>-</td>
+</tr>
+</tbody>
+</table>
