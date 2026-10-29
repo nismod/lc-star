@@ -15,5 +15,9 @@ authors:
     email: fred.thomas@eci.ox.ac.uk
     affiliation: University of Oxford
     orcid: "https://orcid.org/0000-0002-8441-5638"
+  - given-names: Nathan
+    family-names: Gordon
+    email: nathan.gordon@uwi.edu
+    affiliation: University of The West Indies, Mona
 repository-code: "https://github.com/nismod/lc-star"
 license: MIT
