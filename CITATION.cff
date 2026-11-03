@@ -18,6 +18,10 @@ authors:
   - given-names: Nathan
     family-names: Gordon
     email: nathan.gordon@uwi.edu
-    affiliation: University of The West Indies, Mona
+    affiliation: The University of the West Indies, Mona
+  - given-names: Nia
+    family-names: Erskine
+    email: niaerskine0410@gmail.com
+    affiliation: The University of the West Indies, Mona
 repository-code: "https://github.com/nismod/lc-star"
 license: MIT
