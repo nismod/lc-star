@@ -15,10 +15,13 @@ authors:
     email: fred.thomas@eci.ox.ac.uk
     affiliation: University of Oxford
     orcid: "https://orcid.org/0000-0002-8441-5638"
-  - family-names: Erskine
-    given-names: Nia
+  - given-names: Nathan
+    family-names: Gordon
+    email: nathan.gordon@uwi.edu
+    affiliation: The University of the West Indies, Mona
+  - given-names: Nia
+    family-names: Erskine
     email: niaerskine0410@gmail.com
-    affiliation: The University of the West Indies, Mona Campus 
-
+    affiliation: The University of the West Indies, Mona
 repository-code: "https://github.com/nismod/lc-star"
 license: MIT
